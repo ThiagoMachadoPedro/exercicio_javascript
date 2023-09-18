@@ -1,0 +1,17 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --watch -d dist"
+  },
+  "browserslist": "> 0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.10"
+  }
+}
